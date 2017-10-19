@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <title>form</title>
+  </head>
+  <body>
+    <form action="#">
+        <P>
+            <label for="mail">メールアドレス:</label>
+            <input type="email" name="mail" id="mail">
+        </P>
+        <p>
+            <label for="password">パスワード:</label>
+            <input type="password" name="password" id="password" maxlength="12">
+        </p>
+        <p>
+            <label for="post_code">郵便番号:</label>
+            <input type="text" name="post_code" id="post_code" placeholder="123-4567">
+        <p>
+            都道府県:
+            <select name="pref">
+                <option value="">選択してください</option>
+                <option value="北海道">北海道</option>
+                <option value="青森県">青森県</option>
+                <option value="">サンプルのため以下省略</option>
+            </select>
+        </p>
+        <p>
+            性別:
+            <input type="radio" name="gender" value="man">男性
+            <input type="radio" name="gender" value="woman">女性
+        </p>
+        <p>
+            メール配信:
+            <input type="checkbox" name="magagize" value="1" checked>配信を希望する
+        </p>
+        <p>
+            <input type="submit" value="送信">
+        </p>
+    </form>
+  </body>
+  </html>

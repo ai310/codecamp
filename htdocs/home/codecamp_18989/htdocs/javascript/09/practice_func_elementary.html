@@ -1,0 +1,13 @@
+<script>
+    var data = [59, 39, 100, 2, 15, 40, 84, 97];
+    var ave = 0;
+    var sum = 0;
+    function calc_ave() {
+        for (var i = 0; i < data.length; i++) {
+            sum += data[i];
+        }
+        ave = sum / data.length;
+        document.write('<p>' + ave + '</p>');
+    }
+    calc_ave();
+</script>

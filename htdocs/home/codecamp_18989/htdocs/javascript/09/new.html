@@ -1,0 +1,18 @@
+<script>
+    var data1 = [59, 39, 100, 2, 15, 40, 84, 97];
+    var data2 = [79, 10, 15, 40, 84, 97];
+    var ave1 ;
+    ave1 = calc_ave(data1);
+    document.write('<p>' + ave1 + '</p>');
+    
+    function calc_ave(num_array) {
+        var sum = 0;
+        for (var i = 0; i < num_array.length; i++) {
+            sum += num_array[i];
+        }
+        var ave = sum / num_array.length;
+        return ave;
+    }
+    ave2 = calc_ave(data2);
+    document.write(ave2);
+</script>

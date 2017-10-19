@@ -1,0 +1,29 @@
+  body {
+    border : medium solid orange;
+    margin : 10px 70px;
+  }
+  div {
+      border : thin solid orange;
+      display : block;
+      margin : 20px;
+      padding : 0px 10px;
+  }
+  h2 {
+    font-weight : bolder;
+    font-size : medium;
+    background : yellow;
+    padding : 10px 0px;
+  }
+  a {
+      display : block;
+      text-align : center;
+      background : aqua;
+      border : thin solid orange;
+      text-decoration : none ; 
+      font-weight : bolder;
+      margin : 20px;
+      padding : 5px;
+  }
+  dt {
+      border-bottom:dotted thin orange;
+  }

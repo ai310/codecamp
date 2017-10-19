@@ -1,0 +1,23 @@
+<script>
+  // ユーザー定義関数 1
+  function hello(){
+    document.write('<p>hello関数: hello</p>');
+  }
+  // ユーザー定義関数 2
+  function hello_name(abc){
+    document.write('<p>hello_name関数: hello ' + abc + '</p>');
+  }
+  // ユーザー定義関数 3
+  function return_hello_name(name){
+    var str = '<p>return_hello_name関数: hello ' + name + '</p>';
+    return str;
+  }
+ 
+  // hello関数(ユーザー定義関数 1)の実行
+  hello();
+  // hello_name関数(ユーザー定義関数 2)の実行
+  hello_name('山田');
+  // return_hello_name関数(ユーザー定義関数 3)の実行
+  var return_str = return_hello_name('鈴木');
+  document.write(return_str);
+</script>

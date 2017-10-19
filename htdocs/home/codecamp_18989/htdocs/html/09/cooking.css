@@ -1,0 +1,25 @@
+img {
+  width: 300px;
+}
+.contents {
+    display:flex;
+}
+nav {
+    flex:2;
+}
+article {
+    flex:7;
+}
+aside {
+    flex:4;
+}
+nav, article, aside {
+    border:thin solid black;
+}
+.container {
+    width:960px;
+    margin:0 auto;
+}
+header, footer {
+    border-bottom:thin solid black;
+}

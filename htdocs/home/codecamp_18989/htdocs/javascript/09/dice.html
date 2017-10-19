@@ -1,0 +1,16 @@
+<script>
+  function throw_dice(num){
+    var sum = 0;
+    for (var i = 0; i < num; i++) {
+      // 1〜6の数字を変数sumへ合算
+      sum += Math.ceil(Math.random() * 6);
+    }
+    return sum;
+  }
+  document.write('<p>サイコロを1個振る: ' + throw_dice(1) + '</p>');
+  document.write('<p>サイコロを1個振る: ' + throw_dice(1) + '</p>');
+  document.write('<p>サイコロを2個振る: ' + throw_dice(2) + '</p>');
+  document.write('<p>サイコロを2個振る: ' + throw_dice(2) + '</p>');
+  document.write('<p>サイコロを3個振る: ' + throw_dice(3) + '</p>');
+  document.write('<p>サイコロを3個振る: ' + throw_dice(3) + '</p>');
+</script>

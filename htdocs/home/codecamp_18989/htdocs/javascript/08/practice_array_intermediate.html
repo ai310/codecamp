@@ -1,0 +1,11 @@
+<script>
+var count = 0;
+var data = [59, 39, 100, 2, 15, 40, 84, 97];
+for(var i = 0; i < data.length; i++) {
+    document.write('<p>' + data[i] + '</p>');
+        if (data[i] < 40) {
+        count++
+        }
+}
+        document.write('<p>40未満の人は' + count + '人です</p>');
+</script>

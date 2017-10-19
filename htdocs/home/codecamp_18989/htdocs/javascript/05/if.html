@@ -1,0 +1,21 @@
+<script>
+  var rand1 = Math.floor(Math.random() * 101);
+  var rand2 = Math.floor(Math.random() * 101);
+  var sum = rand1 + rand2;
+  document.write('<p>rand1: ' + rand1 + '</p>');
+  document.write('<p>rand2: ' + rand2 + '</p>');
+  document.write('<p>sum: ' + sum + '</p>');
+  // 合計が160以上またはrand1かrand2が100
+  if (sum >= 160 || rand1 === 100 || rand2 === 100) {
+    document.write('<p>特待生</p>');
+  // 合計が120以上かつrand1とrand2が40以上
+  } else if (sum >= 120 && rand1 >= 40 && rand2 >= 40) {
+    document.write('<p>合格</p>');
+  // 合計が110以上
+  } else if (sum >= 110) {
+    document.write('<p>補欠合格</p>');
+  // 条件外
+  } else {
+    document.write('<p>不合格</p>');
+  }
+</script>

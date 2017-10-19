@@ -1,0 +1,24 @@
+  .place {
+    color: red;
+    font-size: 18px;
+  }
+  h1 {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    border-top: dotted 2px blue;
+    border-bottom: dotted 2px blue;
+    background: #33CCFF;
+    font-weight: bold;
+  }
+  a {
+    color: aqua;
+  }
+  li {
+    font-size: 16px;
+    list-style-type:square;
+    margin:10px 0px;
+    }
+  p {
+    font-size: 16px;
+    }

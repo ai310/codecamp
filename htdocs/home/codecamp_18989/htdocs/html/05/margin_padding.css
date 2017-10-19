@@ -1,0 +1,12 @@
+html {
+   border: solid 2px #ff00ff;
+}
+body {
+   border: dashed 2px #000000;
+}
+p {
+   border: solid 2px #0000ff;
+}
+div {
+   border: solid 2px #00ff00;
+}

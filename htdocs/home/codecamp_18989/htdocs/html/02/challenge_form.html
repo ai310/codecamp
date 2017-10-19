@@ -1,0 +1,47 @@
+  <!DOCTYPE html>
+  <html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <title>challenge_form</title>
+  </head>
+  <body>
+      <form action="#">
+          <h1>ITアンケート</h1>
+          <p>
+             お名前
+             <input type="text" name="name">
+          </p>
+          <p>
+              メールアドレス
+              <input type="email" name="mail">
+          </p>
+          <p>
+              電話番号
+              <input type="tel" name="tel" placeholder="00-0000-0000">
+          </p>
+          <p>
+              現在のHTML理解度を教えてください
+              <label><input type="radio" name="HTMLunderstanding" value="low">低い</label>
+          　　<label><input type="radio" name="HTMLunderstanding" value="middle">普通</label>
+          　　<label><input type="radio" name="HTMLunderstanding" value="high">高い</label>
+          </p>
+          <p>
+              現在のCSS理解度を教えてください
+              <label><input type="radio" name="CSSunderstanding" value="low">低い</label>
+          　　<label><input type="radio" name="CSSunderstanding" value="middle">普通</label>
+          　　<label><input type="radio" name="CSSunderstanding" value="high">高い</label>
+          </p>
+          <p>
+              聞いたことがあプログラミング言語を選択してください（複数選択可）
+              <label><input type="checkbox" name="programming language" value="C">C</label>
+              <label><input type="checkbox" name="programming language" value="Java">Java</label>
+              <label><input type="checkbox" name="programming language" value="PHP">PHP</label>
+              <label><input type="checkbox" name="programming language" value="Ruby">Ruby</label>
+              <label><input type="checkbox" name="programming language" value="JavaScript">JavaScript</label>
+          </p>
+          <p>
+              <input type="submit" value="送信">
+          </p>
+      </form>
+  </body>
+  </html>

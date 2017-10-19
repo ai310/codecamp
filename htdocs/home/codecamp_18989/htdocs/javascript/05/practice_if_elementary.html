@@ -1,0 +1,13 @@
+<script>
+    var rand1 = Math.floor(Math.random() * 3);
+    var rand2 = Math.floor(Math.random() * 3);
+    document.write ('<p>rand1: ' + rand1 + '</p>');
+    document.write ('<p>rand2: ' + rand2 + '</p>');
+    if ( rand1 > rand2 ) {
+        document.write('<p>rand1のほうが大きい値です</p>');
+    } else if ( rand1 < rand2 ) {
+        document.write('<p>rand2のほうが大きい値です</p>');
+    } else {
+        document.write('<p>2つは同じ値です</p>');
+    }
+</script>
